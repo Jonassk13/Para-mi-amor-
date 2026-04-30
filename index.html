@@ -104,7 +104,7 @@
             <p>Sé lo mucho que te esfuerzas cada día en la carrera de fisioterapia y lo dedicada que eres con todo lo que haces.</p>
             <p>Hice este pequeño cuestionario para ayudarte a repasar, porque sé que vas a ser la mejor fisioterapeuta del mundo.</p>
             <p><strong>Un trato especial:</strong> Si sacas más de 85 de calificación en total (¡eso es 17 respuestas buenas!), <b>te daré lo que tú quieras</b>.</p>
-            <p>¿Lista para empezar? Te amo.</p>
+            <p>¿Lista para empezar? Suerte, te quiero .</p>
             <button onclick="startQuiz()">¡Comenzar!</button>
         </div>
 
@@ -125,7 +125,7 @@
             <h2 id="final-score"></h2>
             <p id="reward-message" style="font-weight: bold; font-size: 1.2em; color: var(--primary); margin: 20px 0;"></p>
             <p>Espero que este pequeño repaso te haya servido muchísimo para seguir aprendiendo y estudiando. Estoy súper orgulloso de ti y de la increíble persona y profesionista en la que te estás convirtiendo. Cada esfuerzo vale la pena.</p>
-            <p>Te amo muchísimo ❤️</p>
+            <p>Te quiero muchísimo ❤️</p>
             <p><i>– Jonas</i></p>
         </div>
     </div>
@@ -323,7 +323,7 @@
 
             if (isCorrect) {
                 emoji.innerText = "🥰✨🎉";
-                text.innerText = "¡Excelente mi amor!";
+                text.innerText = "¡Muy bien, sigue asi ❤️!";
                 text.style.color = "#2ed573";
             } else {
                 emoji.innerText = "🥺🫂";
@@ -347,7 +347,7 @@
             
             const rewardMsg = document.getElementById('reward-message');
             if (totalScore >= 85) {
-                rewardMsg.innerHTML = "¡LO LOGRASTE HERMOSA! 🎁<br>Sacaste más de 85, así que pídeme lo que quieras, te lo ganaste con creces.";
+                rewardMsg.innerHTML = "¡LO LOGRASTE ! 🎁<br>Sacaste más de 85, así que pídeme lo que quieras, te lo ganaste con creces.";
             } else {
                 rewardMsg.innerHTML = "Estuviste cerquita de los 85, pero lo importante es que repasaste.<br>¡Igual te mereces un beso enorme!";
             }
